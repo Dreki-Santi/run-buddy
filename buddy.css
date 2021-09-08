@@ -1,0 +1,138 @@
+
+* {margin: 0; padding: 0;}
+
+main, nav {display: block;}
+
+body {
+font-family: Helvetica, Arial,sans-serif;
+color: #39a6b2;
+}
+
+/* Top nav bar */
+
+header {
+min-width: 406px;
+height: 65px;
+width: 100%;
+top: 0px;
+/*position: fixed;*/
+z-index: 10;
+background-color: #39a6b2;
+}
+
+header h1{
+float: left;
+font-size: 36px;
+margin: 0;
+padding: 10px;
+color: #fce138;
+}
+
+nav {
+margin-top: 0;
+margin-left: 0;
+padding: 20px;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+nav li {
+float: right;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+nav a {
+padding: 5px;
+text-decoration: none;
+color: #fce138;
+}
+
+/* Body - Form/Hero */
+
+main {
+/*margin-top: 65px;*/
+}
+
+#background {
+position: relative;
+width: 100%;
+background-image: url(images/hero.jpg);
+height: 600px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#form {
+position: absolute;
+width: 450px;
+margin-top: 150px;
+margin-right: 100px;
+padding: 20px;
+padding-left: 25px;
+bottom: 120px;
+right: 100px;
+color: #024e76;
+border: 3px solid #024e76;
+background-color: #fce138;
+}
+
+#form h3 {
+font-size: 24px;
+margin: 0;
+}
+
+#form p {margin: 5px 0 15px 0;}
+
+.form-input {
+border: 1px solid #024e76;
+display: block;
+padding: 7px 15px;
+font-size: 16px;
+color: #024e76;
+width: 95%;
+margin-bottom: 15px;
+}
+
+.form-label {margin: 0 5px;}
+
+#form button {
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+color: #fce138;
+background-color: #024e76;
+}
+
+/**/
+
+footer {
+clear: both;
+width: 100%;
+padding: 40px 0px;
+background-color: #fce138;
+}
+
+footer h2 {
+display: inline;
+margin: 0;
+font-size: 30px;
+color: #39a6b2;
+}
+
+footer p {
+float: right;
+line-height: 1.5;
+margin-right: 15px;
+text-align: right;
+}
+
+footer a {
+color: #024e76;
+}
