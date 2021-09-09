@@ -115,13 +115,30 @@ background-color: #024e76;
 #meat {text-align: center; margin-left: auto;
     margin-right: auto;}
 
-#what-we-do h2 {
+#meat h2 {
 display: inline-block;
 margin: 25px auto 35px auto;
 font-size: 55px;
 padding: 0 100px 20px 100px;
 border-bottom: 3px solid;
 border-color: #fce138;
+color: #024e76;
+}
+
+#what-you-do {
+margin-top: 50px;
+background-color: #fce138;}
+
+#what-you-do div {margin-bottom: 80px;}
+
+#what-you-do img {
+width: 15%;
+margin: 10px 0;
+}
+
+#what-you-do h3 {
+font-size: 46px;
+margin-top: 10px;
 color: #024e76;
 }
 
@@ -132,6 +149,13 @@ line-height: 1.7;
 font-size: 20px;
 padding-left: 25px;
 padding-right: 25px;
+color: #39a6b2;
+}
+
+#what-you-do span {font-size: 38px;}
+
+.steps {
+font-size: 23px;
 color: #39a6b2;
 }
 
