@@ -124,28 +124,20 @@ font-size: 16px;
 
   /* What we do */
 
-.intro {
-text-align: center;
-}
-
 .intro p {
-line-height: 1.7;
-color: #39a6b2;
 width: 80%;
-font-size: 20px;
 margin: 0 auto;
+text-align: center;
+line-height: 1.7;
+font-size: 20px;
+color: #39a6b2;
 }
 
   /* What you do */
 
-.steps {
-text-align: center;
-background: #fce138;
-}
+.steps {background: #fce138;}
 
-.steps div {
-margin-bottom: 80px;
-}
+.steps div {margin-bottom: 80px;}
 
 .steps img {
 width: 15%;
@@ -168,10 +160,6 @@ font-size: 38px;
 }
 
   /* Trainers */
-
-.trainers {
-text-align: center;
-}
 
 .trainer {
 width: 900px;
@@ -217,10 +205,8 @@ text-align: right;
 }
 
   /* Reach out */
-.contact {
-text-align: center;
-background: #024e76;
-}
+
+.contact {background: #024e76;}
 
 .contact h2 {
 color: #fce138;
@@ -285,12 +271,15 @@ color: #024e76;
 
 /*------<H2> CSS------*/
 
+.flex-row {display: flex;}
+
 .section-title {
+width: 50%;
+margin: 0 auto 35px auto;
+padding: 20px;
+text-align: center;
 font-size: 55px;
 color: #024e76;
-margin-bottom: 35px;
-padding: 0 100px 20px 100px;
-display: inline-block;
 border-bottom: 3px solid;
 }
 
