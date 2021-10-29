@@ -187,7 +187,6 @@ border-radius: 50%;
 position: absolute;
 left: -29px;
 top: -3px;
-background-color: #024e76;
 background-image: radial-gradient(circle, #39a6b2, #024e76);
 }
 
@@ -204,11 +203,13 @@ transform: rotate(-58deg);
 }
 
 /* Making them work */
-.checkbox-wrapper input + label::after, .radio-wrapper input + label::after {
+.checkbox-wrapper input + label::after, 
+.radio-wrapper input + label::after {
 content: none;
 }
 
-.checkbox-wrapper input:checked + label::after, .radio-wrapper input:checked + label::after {
+.checkbox-wrapper input:checked + label::after, 
+.radio-wrapper input:checked + label::after {
 content: "";
 }
 
