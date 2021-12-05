@@ -1,4 +1,4 @@
-# run-buddy
+# Run Buddy
 First project for UofA coding bootcamp
 
 ## Purpose
