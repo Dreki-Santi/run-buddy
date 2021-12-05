@@ -1,5 +1,5 @@
 # run-buddy
-Beginning project for UofA coding bootcamp
+First project for UofA coding bootcamp
 
 ## Purpose
 A website that offers fitness training services.
